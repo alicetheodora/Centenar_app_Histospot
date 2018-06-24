@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="leaderboard_row">64dp</dimen>
+    <dimen name="leaderboard_row_level">26dp</dimen>
+    <dimen name="search_row">64dp</dimen>
+    <dimen name="search_row_level">26dp</dimen>
+    <dimen name="learn_row">64dp</dimen>
+    <dimen name="learn_row_level">26dp</dimen>
+</resources>

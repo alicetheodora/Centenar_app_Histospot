@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ip.histospot.android.activities.LeaderboardActivity"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:background="@color/colorPrimary">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="16dp"
+            android:text="@string/leaderboard_title"
+            android:textStyle="bold"
+            android:gravity="center|start"
+            android:layout_toLeftOf="@+id/search"
+            android:textColor="@color/colorTextOnPrimary"
+            android:textSize="32sp"/>
+    </RelativeLayout>
+    <include
+        layout="@layout/no_internet_bar"/>
+    <android.support.design.widget.TabLayout
+        android:id="@+id/tab_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryLight"
+        app:tabSelectedTextColor="@color/colorSecondaryLight"
+        app:tabIndicatorColor="@color/colorSecondaryLight"
+        app:tabIndicatorHeight="8dp"/>
+    <android.support.v4.view.ViewPager
+        android:id="@+id/pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/tab_layout" />
+</LinearLayout>

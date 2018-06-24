@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Histospot</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="duel_title">Duel</string>
+    <string name="profile_title">Profil</string>
+    <string name="learn_title">Învață</string>
+    <string name="search_person">Caută persoană</string>
+    <string name="leaderboard_title">Leaderboard</string>
+</resources>
